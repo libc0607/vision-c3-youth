@@ -2,6 +2,8 @@
 基于 ESP32-C3 的下北泽神之眼青春版  
 这里包含可以直接替换 [小渣渣](https://space.bilibili.com/14958846) 的 [璃月核心板](https://www.bilibili.com/video/BV1HS4y1b7tQ) PCB 设计及其代码  
 你也可以看看这个设计在经历两次缩水前的全功能版是什么样子（雾）： [Github: libc0607/esp32-vision](https://github.com/libc0607/esp32-vision)  
+[Bilibili: 下北泽元素力青春版核心板](https://www.bilibili.com/video/BV1J94y1U7n7)  
+![](https://github.com/libc0607/vision-c3-youth/raw/main/demo.gif)  
 
 与原设计相比，这里的设计目标：
  - 直接替换他的电路板，且其他部件完全兼容
@@ -45,6 +47,7 @@
 ## 协议 & 免责声明 
 本设计由于基于小渣渣的设计修改而来，采用同样的 GPL 3.0 协议授权  
 你可以在这里的基础上进行修改，可分享，可商用，但是修改后要开源  
+虽然该协议可以商用，但不代表作者支持你的行为，作者也不会对商业化造成的麻烦承担任何责任；作者本人也没有在任何平台卖成品或套件，有问题看代码请别找我售后谢谢  
 作者与 mhy 没什么关系，如果你需要商用，请参照 [《原神同人周边大陆地区正式运行指引V1.2》](https://weibo.com/ttarticle/p/show?id=2309404707028085113324) （不保证本链接为最新版，请自行查看）进行  
 
 BLE 版本代码中引用了 [stevemarple/IniFile](https://github.com/stevemarple/IniFile)   
