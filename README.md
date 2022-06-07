@@ -3,7 +3,7 @@
 这里包含可以直接替换 [小渣渣](https://space.bilibili.com/14958846) 的 [璃月核心板](https://www.bilibili.com/video/BV1HS4y1b7tQ) PCB 设计及其代码  
 你也可以看看这个设计在经历两次缩水前的全功能版是什么样子（雾）： [Github: libc0607/esp32-vision](https://github.com/libc0607/esp32-vision)  
 [Bilibili: 下北泽元素力青春版核心板](https://www.bilibili.com/video/BV1J94y1U7n7)  
-![](https://github.com/libc0607/vision-c3-youth/raw/main/demo.gif)  
+![demo240](https://user-images.githubusercontent.com/8705034/172422163-bd384d19-6873-4483-bdf5-e652954234d6.gif)
 
 与原设计相比，这里的设计目标：
  - 直接替换他的电路板，且其他部件完全兼容
