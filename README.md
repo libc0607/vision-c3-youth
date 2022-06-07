@@ -29,6 +29,11 @@
 写在代码前面的注释里了，懒得再写一遍了  
 不带蓝牙版大概有 2900 kB 可用空间，蓝牙版大约 1900 kB；七元素各存几秒，并做一下循环的头尾衔接，还是够用的  
 
+目前的代码包含两个 Bug：
+1. 蓝牙断开连接的时候会导致本体自动关机  
+  这个问题大概和上游代码有关，因为同样的代码在 esp32 上就能用；不过暂时可以当作 feature 来用，遥控关机嘛（不是  
+2. 电池电压读取有问题，应该能读，懒得试了  
+
 ## 参考
 视频播放部分参考 [moononournation/RGB565_video](https://github.com/moononournation/RGB565_video)  
 蓝牙 iTag 部分参考 [100-x-arduino.blogspot.com](http://100-x-arduino.blogspot.com/) 中给出的示例进行修改  
