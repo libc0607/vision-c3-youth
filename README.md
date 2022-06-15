@@ -1,6 +1,6 @@
 # Vision C3 Youth 
 基于 ESP32-C3 的下北泽神之眼青春版  
-这里包含可以直接替换 [小渣渣](https://space.bilibili.com/14958846) 的 [璃月核心板](https://www.bilibili.com/video/BV1HS4y1b7tQ) PCB 设计及其代码  
+这里包含可以直接替换 [小渣渣](https://space.bilibili.com/14958846) 的圆版及方版核心板的 PCB 设计及其代码  
 你也可以看看这个设计在经历两次缩水前的全功能版是什么样子（雾）： [Github: libc0607/esp32-vision](https://github.com/libc0607/esp32-vision)  
 [Bilibili: 下北泽元素力青春版核心板](https://www.bilibili.com/video/BV1J94y1U7n7)  
 ![demo240](https://user-images.githubusercontent.com/8705034/172422163-bd384d19-6873-4483-bdf5-e652954234d6.gif)
@@ -20,8 +20,9 @@
 
 
 ## 硬件设计
-方版见 [OSHWHub](https://oshwhub.com/libc0607/liyue-c3-lowcost-v1)   
-圆版？有生之年吧  
+方版见 [OSHWHub: 璃月核心板 C3 青春版（？）](https://oshwhub.com/libc0607/liyue-c3-lowcost-v1)   
+圆版见 [OSHWHub: 神之眼 C3 青春版核心板 V1](https://oshwhub.com/libc0607/vision-c3-youth-gc9a01-v1)   
+在本仓库内也上传了一份，包括 iBom  
 
 ## 外壳
 直接使用 [小渣渣的璃月版神之眼](https://www.bilibili.com/video/BV1HS4y1b7tQ) 资料中提到的外壳即可  
@@ -35,6 +36,9 @@
 1. 蓝牙断开连接的时候会导致本体自动关机  
   这个问题大概和上游代码有关，因为同样的代码在 esp32 上就能用；不过暂时可以当作 feature 来用，遥控关机嘛（不是  
 2. 电池电压读取有问题，应该能读，懒得试了  
+
+烧写之前你可能需要使用乐鑫提供的 flash download tool 进行清空操作  
+如果无法下载或是循环重启，尝试使用不同的 arduino-esp32 版本  
 
 ## 参考
 视频播放部分参考 [moononournation/RGB565_video](https://github.com/moononournation/RGB565_video)  
